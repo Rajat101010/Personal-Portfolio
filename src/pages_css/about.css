@@ -1,0 +1,19 @@
+.laptop_about_page {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .laptop_about_page {
+        display: none;
+    }
+}
+
+.mobile_about_page {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .mobile_about_page {
+        display: block;
+    }
+}

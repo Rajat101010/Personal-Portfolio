@@ -1,0 +1,56 @@
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 85%;
+    padding: 25px 25px 30px;
+    border-radius: 12px;
+    border: 2px solid #064E3B;
+    /* thickness + color */
+    border-radius: 12px;
+}
+
+form .input-box{
+    margin-top: 20px;
+}
+
+.input-box .field{
+    width: 97%;
+    height: 5px;
+    background: transparent;
+    border: 2px solid #064E3B;
+    outline: none;
+    border-radius: 6px;
+    padding: 15px;
+    font-size: 16px;
+    color: black;
+    margin-top: 8px;
+}
+
+@media (max-width: 768px){
+    .input-box .field{
+        width: 90%;
+    }
+}
+
+.input-box .field.mess{
+    height: 200px;
+    resize: none;
+}
+
+.contact_send_message {
+    text-align: center;
+    margin: .4rem .2rem;
+    background-color: white;
+    border: 2px solid #064E3B;
+    padding: .5rem 2.5rem;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.contact_send_message:hover {
+    box-shadow: 0 .1rem 1.6rem 0 rgba(0, 0, 0, 0.24), 0 1.7rem 5rem 0 rgba(0, 0, 0, 0.19);
+}

@@ -1,0 +1,209 @@
+.mobile_my_skills_parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #F2F2F2;
+    width: 88%;
+    border-radius: 12px;
+    padding: 16px;
+}
+
+.mobile_my_skills_div1 {
+    grid-column: span 3 / span 3;
+}
+
+.mobile_my_skills_prpgramming_div {
+    grid-column: span 3 / span 3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #FFF7F7;
+    width: auto;
+    border-radius: 12px;
+    padding: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.mobile_my_skills_div2 {
+    grid-column: span 3 / span 3;
+    grid-row-start: 2;
+}
+
+.mobile_my_skills_div3 {
+    grid-row-start: 3;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.mobile_my_skills_div4 {
+    grid-row-start: 3;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.mobile_my_skills_div5 {
+    grid-row-start: 3;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.mobile_my_skills_designing_div {
+    grid-column: span 3 / span 3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #FFF7F7;
+    width: auto;
+    border-radius: 12px;
+    padding: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.mobile_my_skills_div6 {
+    grid-column: span 3 / span 3;
+}
+
+.mobile_my_skills_div7 {
+    grid-column: span 3 / span 3;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.mobile_my_skills_div8 {
+    grid-column: span 3 / span 3;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.mobile_my_skills_div9 {
+    grid-column: span 3 / span 3;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.mobile_my_skills_office_tools_div {
+    grid-column: span 3 / span 3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #FFF7F7;
+    width: auto;
+    border-radius: 12px;
+    padding: 16px;
+}
+
+.mobile_my_skills_div10 {
+    grid-column: span 3 / span 3;
+}
+
+.mobile_my_skills_div11 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.mobile_my_skills_div12 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.mobile_my_skills_div13 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.mobile_my_skills_div14 {
+    grid-column: span 3 / span 3;
+}
+
+
+.mobile_my_skills_font_1 {
+    font-size: 2rem;
+    font-family: Verdana, sans-serif;
+    color: #0D0D0D;
+}
+
+.mobile_my_skills_font_2 {
+    font-size: 2rem;
+    font-family: Verdana, sans-serif;
+    color: #064E3B;
+}
+
+.mobile_my_skills_font_3 {
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    color: #3F3F46;
+}
+
+.mobile_my_slill_icons {
+    height: 5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.mobile_my_slill_icons_2 {
+    height: 5rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.mobile_my_slill_button_view_more {
+    text-align: center;
+    margin: .4rem .2rem;
+    background-color: #F2F2F2;
+    border: 2px solid #064E3B;
+    padding: .5rem 2.5rem;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.mobile_my_slill_button_view_more:hover {
+    box-shadow: 0 .1rem 1.6rem 0 rgba(0, 0, 0, 0.24), 0 1.7rem 5rem 0 rgba(0, 0, 0, 0.19);
+}
+
+.mobile_my_slill_view_more {
+    text-decoration: none;
+    font-family: Verdana, sans-serif;
+    font-size: 1rem;
+    color: #3F3F46;
+}

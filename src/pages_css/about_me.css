@@ -1,0 +1,83 @@
+.about_me_page_parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    text-align: center;
+    width: 90%;
+}
+
+.about_me_page_div1 {
+    grid-column: span 2 / span 2;
+}
+
+.about_me_page_div2 {
+    grid-column: span 2 / span 2;
+}
+
+.about_me_page_div3 {
+    grid-column: span 2 / span 2;
+}
+
+.about_me_page_font_1 {
+    font-size: 3rem;
+    font-family: Verdana, sans-serif;
+    color: #0D0D0D;
+}
+
+.about_me_page_font_2 {
+    font-size: 3rem;
+    font-family: Verdana, sans-serif;
+    color: #064E3B;
+}
+
+.about_me_page_font_3 {
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: #3F3F46;
+}
+
+.about_me_page_font_4 {
+    font-size: 1.2rem;
+    font-family: Verdana, sans-serif;
+    color: #3F3F46;
+}
+
+.about_me_page_about_me_me {
+    height: 13rem;
+    border-radius: 50%;
+}
+
+
+@media (max-width: 768px) {
+    .about_me_page_parent {
+        grid-template-columns: 1fr !important;
+    }
+
+    .about_me_page_parent>div {
+        grid-column: 1 / -1 !important;
+    }
+
+    .about_me_page_font_1 {
+        font-size: 2rem;
+        font-family: Verdana, sans-serif;
+        color: #0D0D0D;
+    }
+
+    .about_me_page_font_2 {
+        font-size: 2rem;
+        font-family: Verdana, sans-serif;
+        color: #064E3B;
+    }
+
+    .about_me_page_font_3 {
+        font-size: 1.4rem;
+        font-family: sans-serif;
+        color: #3F3F46;
+    }
+
+    .about_me_page_font_4 {
+        font-size: 1rem;
+        font-family: Verdana, sans-serif;
+        color: #3F3F46;
+    }
+}

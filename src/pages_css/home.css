@@ -1,0 +1,45 @@
+.laptop_about_me {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .laptop_about_me {
+        display: none;
+    }
+}
+
+.mobile_about_me {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .mobile_about_me {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .remove_in_mobile_br {
+        display: none;
+    }
+}
+
+.laptop_my_skills {
+    display: block;
+}
+
+@media (max-width: 968px) {
+    .laptop_my_skills {
+        display: none;
+    }
+}
+
+.mobile_my_skills {
+    display: none;
+}
+
+@media (max-width: 968px) {
+    .mobile_my_skills {
+        display: block;
+    }
+}

@@ -1,0 +1,129 @@
+.complement_parent {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 0px;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    /* centers content horizontally */
+    align-items: center;
+    /* centers content vertically */
+    place-items: center;
+}
+
+.complement_info {
+    width: 15%;
+    justify-content: center;
+    /* centers content horizontally */
+    align-items: center;
+    /* centers content vertically */
+    place-items: center;
+}
+
+.complement_space {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    justify-content: center;
+    /* centers content horizontally */
+    align-items: center;
+    /* centers content vertically */
+    place-items: center;
+}
+
+@media(max-width: 768px) {
+    .complement_parent {
+        display: none;
+        /* hide content by default */
+        flex-direction: column;
+        /* stack vertically when visible */
+        width: 90%;
+        align-items: flex-start;
+        background: white;
+        /* optional: give it a clean dropdown look */
+        padding: 1rem;
+    }
+    
+    .complement-space{
+        width: 100%;
+    }
+
+    .complement_space {
+        display: none;
+    }
+
+    .complement_info {
+        display: flex;
+        justify-content: flex-start;
+        /* align horizontally to the left */
+        align-items: flex-start;
+        /* align vertically to the top */
+        width: 100%;
+        padding: 0.5rem 0;
+    }
+}
+
+.complement_font_1 {
+    font-size: 2.1rem;
+    font-family: Arial;
+    color: #064E3B;
+}
+
+.complement_font_2 {
+    font-size: 1.2rem;
+    font-family: Verdana, sans-serif;
+    color: #3F3F46;
+}
+
+.complement_font_3 {
+    font-size: 3rem;
+    font-family: Serif;
+    color: #064E3B;
+}
+
+@media(max-width: 768px) {
+    .complement_font_1 {
+        font-size: 1.5rem;
+        font-family: Arial;
+        color: #064E3B;
+    }
+
+    .complement_font_2 {
+        font-size: 1.2rem;
+        font-family: Verdana, sans-serif;
+        color: #3F3F46;
+    }
+
+    .complement_font_3 {
+        font-size: 6rem;
+        font-family: Serif;
+        color: #064E3B;
+    }
+
+    .complement_br {
+        display: none;
+    }
+}
+
+.hamburger_complement {
+    font-family: Arial;
+    font-weight: 600;
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #064E3B;
+}
+
+.hamburger_complement:hover {
+    color: #0D0D0D;
+}
+
+@media (max-width: 768px) {
+    .hamburger_complement {
+        display: block;
+    }
+
+    .complement_parent.show {
+        display: flex;
+    }
+}

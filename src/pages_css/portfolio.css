@@ -1,0 +1,19 @@
+.laptop_portfolio_page {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .laptop_portfolio_page {
+        display: none;
+    }
+}
+
+.mobile_portfolio_page {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .mobile_portfolio_page {
+        display: block;
+    }
+}

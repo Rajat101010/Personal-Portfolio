@@ -1,0 +1,45 @@
+.work_experience_page_parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+    width: 90%;
+}
+
+.work_experience_page_div1 {
+    grid-column: span 3 / span 3;
+}
+
+.work_experience_page_div2 {
+    border: 2px solid #064E3B;
+    /* thickness + color */
+    border-radius: 12px;
+    /* curve at the corners */
+    padding: 16px;
+}
+
+.work_experience_page_div3 {
+    border: 2px solid #064E3B;
+    /* thickness + color */
+    border-radius: 12px;
+    /* curve at the corners */
+    padding: 16px;
+}
+
+.work_experience_page_div4 {
+    border: 2px solid #064E3B;
+    /* thickness + color */
+    border-radius: 12px;
+    /* curve at the corners */
+    padding: 16px;
+}
+
+@media (max-width: 768px) {
+    .work_experience_page_parent {
+        grid-template-columns: 1fr !important;
+    }
+
+    .work_experience_page_parent>div {
+        grid-column: 1 / -1 !important;
+    }
+}
