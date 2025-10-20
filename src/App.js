@@ -21,44 +21,27 @@ function App() {
           <Routes>
             <Route path='/' element={<Home />} />
           </Routes>
-      </BrowserRouter>
-      <BrowserRouter>
           <Routes>
             <Route path='/about' element={<About />} />
           </Routes>
-      </BrowserRouter>
-      <BrowserRouter>
           <Routes>
             <Route path='/portfolio' element={<Portfolio />} />
           </Routes>
-      </BrowserRouter>
-      <BrowserRouter>
           <Routes>
             <Route path='/about-me' element={<AboutMe />} />
           </Routes>
-      </BrowserRouter>
-
-      <BrowserRouter>
           <Routes>
             <Route path='/work-experience' element={<WorkExperience />} />
           </Routes>
-      </BrowserRouter>
-      <BrowserRouter>
           <Routes>
             <Route path='/educational-qualification' element={<EducationalQualificateion />} />
           </Routes>
-      </BrowserRouter>
-      <BrowserRouter>
           <Routes>
             <Route path='/my-skills' element={<MySkills />} />
           </Routes>
-      </BrowserRouter>
-      <BrowserRouter>
           <Routes>
             <Route path='/my-projects' element={<MyProjects />} />
           </Routes>
-      </BrowserRouter>
-      <BrowserRouter>
           <Routes>
             <Route path='/my-certificates' element={<MyCertificates />} />
           </Routes>

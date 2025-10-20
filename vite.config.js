@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
     Plugins: [react()],
-    base : '/Personal-Portfolio'
+    base : process.env.VITE_BASE_PATH || "/Personal-Portfolio"
 })
