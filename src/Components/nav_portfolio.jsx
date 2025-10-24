@@ -6,14 +6,18 @@ import { TbFileCv } from "react-icons/tb";
 
 import Rajat_CV from '../Components/resume/Rajat_CV.pdf';
 
-function NavHome(props) {
+import RajatLogo from './component_images/rajat_logo.png';
+
+function NavPortfolio(props) {
   const [isOpen, setIsOpen] = useState(false);
 
   return <>
     <nav className="nav_for_all_pages">
       <div className="nav_nav_for_mobile">
         <div className="rajat_text">
-          <b>Rajat</b>
+          <a href="/">
+            <img src={RajatLogo} alt="Rajat" className="rajat_logo_nav" />
+          </a>
         </div>
         <div className="nav-space" />
         <div className="hamburger" id="hamburger" onClick={() => setIsOpen(!isOpen)}>
@@ -67,4 +71,4 @@ function NavHome(props) {
   </>
 }
 
-export default NavHome;
+export default NavPortfolio;

@@ -33,12 +33,14 @@
     }
 }
 
-.rajat_text {
+.rajat_text{
+    display: flex;
+    justify-content: center;
     align-items: center;
-    font-size: 1.7rem;
-    font-family: cursive;
-    font-weight: 600;
-    color: #FFFFFF;
+}
+
+.rajat_logo_nav {
+    height: 2rem;
 }
 
 .nav-links {

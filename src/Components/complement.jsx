@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { IoIosArrowDown } from "react-icons/io";
+import { TfiMore } from "react-icons/tfi";
 
 function Complement() {
     const [isOpen, setIsOpen] = useState(false);
@@ -8,7 +8,7 @@ function Complement() {
         <center>
             <div className="complement-space" />
             <div className="hamburger_complement" id="hamburger" onClick={() => setIsOpen(!isOpen)}>
-                Portfolio Highlights<br /><IoIosArrowDown />
+                Portfolio Highlights<br /><TfiMore />
             </div>
             <div className={`complement_parent ${isOpen ? 'show' : ''}`}>
                 <div className='complement_info'>

@@ -4,6 +4,7 @@ import PersonalWebsite from './component_images/project_personal_website.jpg';
 import FlyHighAirline from './component_images/project_fly_high_airline.jpg';
 import AnishBarber from './component_images/project_anish_barber.jpg';
 import BarberShop from './component_images/project_barber_shop.jpg';
+import Flavora from './component_images/project_flavora.jpg';
 
 function MyProjectsContent() {
     return <>
@@ -86,6 +87,25 @@ function MyProjectsContent() {
                     <font className="laptop_about_me_about_me_font_4">HTML | CSS | JavaScript</font>
                     <br /><br />
                     <a href="https://rajat101010.github.io/Anish-Barber/">
+                        <button type="button" class="projects_button_view_page">
+                            <font className="projects_view_page">
+                                View Page
+                            </font>
+                        </button>
+                    </a>
+                    <br /><br />
+                </div>
+                <div className="work_experience_page_div4">
+                    <br />
+                    <img src={Flavora} alt="c" className="projects_icons" />
+                    <br /><br />
+                    <font className='laptop_about_me_about_me_font_5'>
+                        <b>Flavora</b>
+                    </font>
+                    <br />
+                    <font className="laptop_about_me_about_me_font_4">React | CSS</font>
+                    <br /><br />
+                    <a href="https://flavora-orpin.vercel.app/">
                         <button type="button" class="projects_button_view_page">
                             <font className="projects_view_page">
                                 View Page
