@@ -33,10 +33,17 @@
     }
 }
 
-.rajat_text{
+.rajat_text {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.rajat_text a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font: 2rem sans-serif;
 }
 
 .rajat_logo_nav {
@@ -115,4 +122,161 @@
     .nav_word {
         display: none;
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Nav_for_all_page_laptop {
+    background: #064E3B;
+    display: flex;
+    padding: 0rem 5rem;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+
+.rajat_text_for_nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rajat_text_for_nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font: 2rem sans-serif;
+}
+
+.space_between_nav {
+    width: 100%;
+}
+
+
+.nav_actial_part_ul_laptop {
+    list-style: none;
+    display: flex;
+    gap: 5rem;
+}
+
+.nav_actial_part_ul_laptop li {
+    display: block;
+    line-height: 1;
+}
+
+.nav_actial_part_ul_laptop a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.nav_actial_part_ul_laptop a:hover {
+    color: #d0d0d1;
+}
+
+.nav_actial_part_ul_laptop .active_page {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    color: #d0d0d1;
+}
+
+@media (max-width: 768px) {
+    .Nav_for_all_page_laptop {
+        display: none;
+    }
+}
+
+.Nav_for_all_page_mobile {
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+    .Nav_for_all_page_mobile {
+        background: #064E3B;
+        display: flex;
+        padding: 0rem 2rem;
+        font-family: sans-serif;
+        font-size: 1.1rem;
+        font-weight: 300;
+    }
+
+    .rajat_text_for_nav a {
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
+        font: 1.5rem sans-serif;
+    }
+}
+
+.nav_actial_part_ul_mobile {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav_actial_part_ul_mobile li {
+    display: block;
+    line-height: 1;
+}
+
+.nav_actial_part_ul_mobile a {
+    text-decoration: none;
+    color: #FFFFFF;
 }

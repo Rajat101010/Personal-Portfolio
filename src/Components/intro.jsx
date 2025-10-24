@@ -31,20 +31,15 @@ function Intro() {
                                         <i>I am a</i>{" "}
                                         <span className="intro_info_table_font_4">
                                             <span className='data' style={{ "--i": 5 }} data-text="Software Engineer">
-                                                Software Engineer
-                                            </span>
+                                                Software Engineer </span>
                                             <span className='data' style={{ "--i": 4 }} data-text="Frontend Developer">
-                                                Frontend Developer
-                                            </span>
+                                                Frontend Developer </span>
                                             <span className='data' style={{ "--i": 3 }} data-text="Graphic Designer">
-                                                Graphic Designer
-                                            </span>
+                                                Graphic Designer </span>
                                             <span className='data' style={{ "--i": 2 }} data-text="Project Manager">
-                                                Project Manager
-                                            </span>
+                                                Project Manager </span>
                                             <span className='data' style={{ "--i": 1 }} data-text="Tech Researcher">
-                                                Tech Researcher
-                                            </span>
+                                                Tech Researcher </span>
                                         </span>
                                     </div>
                                     <br /><br />

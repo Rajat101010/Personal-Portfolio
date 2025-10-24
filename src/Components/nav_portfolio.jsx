@@ -1,73 +1,69 @@
-import React, { useState } from 'react';
-import { TbHome } from "react-icons/tb";
-import { FiInfo } from "react-icons/fi";
-import { MdOutlineCardTravel } from "react-icons/md";
 import { TbFileCv } from "react-icons/tb";
+
+import { AiFillHome } from "react-icons/ai";
+import { AiOutlineHome } from "react-icons/ai";
+import { IoMdInformationCircle } from "react-icons/io";
+import { IoMdInformationCircleOutline } from "react-icons/io";
+import { AiFillProject } from "react-icons/ai";
+import { AiOutlineProject } from "react-icons/ai";
+
 
 import Rajat_CV from '../Components/resume/Rajat_CV.pdf';
 
-import RajatLogo from './component_images/rajat_logo.png';
-
-function NavPortfolio(props) {
-  const [isOpen, setIsOpen] = useState(false);
-
+function NavPortfolio() {
   return <>
-    <nav className="nav_for_all_pages">
-      <div className="nav_nav_for_mobile">
-        <div className="rajat_text">
+    <div>
+      <div className='Nav_for_all_page_laptop'>
+        <div className='rajat_text_for_nav'>
           <a href="/">
-            <img src={RajatLogo} alt="Rajat" className="rajat_logo_nav" />
+            Rajat
           </a>
         </div>
-        <div className="nav-space" />
-        <div className="hamburger" id="hamburger" onClick={() => setIsOpen(!isOpen)}>
-          ☰
+        <div className='space_between_nav'>
+        </div>
+        <div>
+          <ul className='nav_actial_part_ul_laptop'>
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="/about">About</a>
+            </li>
+            <li>
+              <a href="/portfolio" className='active_page'>Portfolio</a>
+            </li>
+            <li>
+              <a href={Rajat_CV} download='Rajat_CV'>Resume</a>
+            </li>
+          </ul>
         </div>
       </div>
-      <ul className={`nav-links ${isOpen ? 'show' : ''}`} id="nav-links">
-        <li>
+      <div className='Nav_for_all_page_mobile'>
+        <div className='rajat_text_for_nav'>
           <a href="/">
-            <div className='nav_icons'>
-              <TbHome />
-            </div>
-            <div className='nav_word'>
-              Home
-            </div>
+            Rajat
           </a>
-        </li>
-        <li>
-          <a href="/about">
-            <div className='nav_icons'>
-              <FiInfo />
-            </div>
-            <div className='nav_word'>
-              About
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="/portfolio">
-            <div className='nav_icons , active'>
-              <MdOutlineCardTravel />
-            </div>
-            <div className='nav_word , active'>
-              Portfolio
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href={Rajat_CV} download='Rajat_CV'>
-            <div className='nav_icons'>
-              <TbFileCv />
-            </div>
-            <div className='nav_word'>
-              Resume
-            </div>
-          </a>
-        </li>
-      </ul>
-    </nav>
-    {props.children}
+        </div>
+        <div className='space_between_nav'>
+        </div>
+        <div>
+          <ul className='nav_actial_part_ul_mobile'>
+            <li>
+              <a href="/"><AiOutlineHome /></a>
+            </li>
+            <li>
+              <a href="/about"><IoMdInformationCircleOutline /></a>
+            </li>
+            <li>
+              <a href="/portfolio"><AiFillProject /></a>
+            </li>
+            <li>
+              <a href={Rajat_CV} download='Rajat_CV'><TbFileCv /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </>
 }
 
