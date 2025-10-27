@@ -55,7 +55,7 @@ function Projects() {
                     <font className='project_font_3'>
                         Anish Barber
                         <br />
-                        <a href="">
+                        <a href="https://anish-peach.vercel.app/">
                             <button type="button" class="projects_button_view_page">
                                 <font className="projects_view_page">
                                     View Page
