@@ -6,7 +6,7 @@ import Me from './component_images/me.jpg'
 import Reactt from './component_images/reactt.jpg';
 import JavaScript from './component_images/javascript.jpg';
 import MicrosoftOffice from './component_images/microsoft_office.jpg';
-import GoogleWorkspace from './component_images/google_workspace.jpg';
+import GoogleWorkspace from './component_images/04.jpg';
 import Canva from './component_images/canva.jpg';
 import Figma from './component_images/figma.jpg';
 
@@ -150,7 +150,7 @@ function LaptopAboutPageContent() {
                         </font>
                     </div>
                     <div className="laptop_about_page_content_div7">
-                        <img src={Aorta} alt="c" className="laptop_my_slill_icons" />
+                        <img src={Aorta} alt="c" className="my_skill_page_icons_all" />
                         <br />
                         <font className='laptop_about_me_about_me_font_5'>
                             <b>Marketing Intern</b> at
@@ -165,7 +165,7 @@ function LaptopAboutPageContent() {
                         <br /><br />
                     </div>
                     <div className="laptop_about_page_content_div8">
-                        <img src={SR} alt="c" className="laptop_my_slill_icons" />
+                        <img src={SR} alt="c" className="my_skill_page_icons_all" />
                         <br />
                         <font className='laptop_about_me_about_me_font_5'>
                             <b>HR Intern</b> at
@@ -180,7 +180,7 @@ function LaptopAboutPageContent() {
                         <br /><br />
                     </div>
                     <div className="laptop_about_page_content_div9">
-                        <img src={Upwork} alt="c" className="laptop_my_slill_icons" />
+                        <img src={Upwork} alt="c" className="my_skill_page_icons_all" />
                         <br />
                         <font className='laptop_about_me_about_me_font_5'>
                             <b>Freelancer</b> at
@@ -216,7 +216,7 @@ function LaptopAboutPageContent() {
                         </font>
                     </div>
                     <div className="laptop_about_page_content_div12">
-                        <img src={KIIT} alt="c" className="laptop_my_slill_icons" />
+                        <img src={KIIT} alt="c" className="my_skill_page_icons_all" />
                         <br />
                         <font className='laptop_about_me_about_me_font_5'>
                             <b>B-Tech (CSE)</b> at
@@ -231,7 +231,7 @@ function LaptopAboutPageContent() {
                         <br /><br />
                     </div>
                     <div className="laptop_about_page_content_div13">
-                        <img src={MIS} alt="c" className="laptop_my_slill_icons" />
+                        <img src={MIS} alt="c" className="my_skill_page_icons_all" />
                         <br />
                         <font className='laptop_about_me_about_me_font_5'>
                             <b>Hign School</b> at
@@ -267,7 +267,7 @@ function LaptopAboutPageContent() {
                         </font>
                     </div>
                     <div className="laptop_about_page_content_div17">
-                        <img src={GoogleWorkspace} alt="c" className="laptop_my_slill_icons" />
+                        <img src={GoogleWorkspace} alt="c" className="my_skill_page_icons_all" />
                         <br />
                         <font className='laptop_my_skills_font_4'>
                             Google Workspace
@@ -275,7 +275,7 @@ function LaptopAboutPageContent() {
                         <br /><br />
                     </div>
                     <div className="laptop_about_page_content_div18">
-                        <img src={Canva} alt="c" className="laptop_my_slill_icons" />
+                        <img src={Canva} alt="c" className="my_skill_page_icons_all" />
                         <br />
                         <font className='laptop_my_skills_font_4'>
                             Canva
@@ -283,7 +283,7 @@ function LaptopAboutPageContent() {
                         <br /><br />
                     </div>
                     <div className="laptop_about_page_content_div19">
-                        <img src={Reactt} alt="c" className="laptop_my_slill_icons" />
+                        <img src={Reactt} alt="c" className="my_skill_page_icons_all" />
                         <br />
                         <font className='laptop_my_skills_font_4'>
                             React
@@ -291,7 +291,7 @@ function LaptopAboutPageContent() {
                         <br /><br />
                     </div>
                     <div className="laptop_about_page_content_div20">
-                        <img src={JavaScript} alt="c" className="laptop_my_slill_icons" />
+                        <img src={JavaScript} alt="c" className="my_skill_page_icons_all" />
                         <br />
                         <font className='laptop_my_skills_font_4'>
                             JavaScript
@@ -299,7 +299,7 @@ function LaptopAboutPageContent() {
                         <br /><br />
                     </div>
                     <div className="laptop_about_page_content_div21">
-                        <img src={Figma} alt="c" className="laptop_my_slill_icons" />
+                        <img src={Figma} alt="c" className="my_skill_page_icons_all" />
                         <br />
                         <font className='laptop_my_skills_font_4'>
                             Figma
@@ -307,7 +307,7 @@ function LaptopAboutPageContent() {
                         <br /><br />
                     </div>
                     <div className="laptop_about_page_content_div22">
-                        <img src={MicrosoftOffice} alt="c" className="laptop_my_slill_icons" />
+                        <img src={MicrosoftOffice} alt="c" className="my_skill_page_icons_all" />
                         <br />
                         <font className='laptop_my_skills_font_4'>
                             Microsoft Office

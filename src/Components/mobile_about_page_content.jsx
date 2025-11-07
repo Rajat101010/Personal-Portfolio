@@ -107,7 +107,7 @@ const MobileAboutPageContent = () => {
                         {openSections.two && (
                             <div className="mobile_about_page_mobile-row">
                                 <div className="mobile_about_page_div5">
-                                    <img src={Aorta} alt="c" className="mobile_my_slill_icons" />
+                                    <img src={Aorta} alt="c" className="my_skill_page_icons_all" />
                                     <br />
                                     <font className='laptop_about_me_about_me_font_5'>
                                         <b>Marketing Intern</b> at
@@ -154,7 +154,7 @@ const MobileAboutPageContent = () => {
                         {openSections.three && (
                             <div className="mobile_about_page_mobile-row">
                                 <div className="mobile_about_page_div8">
-                                    <img src={KIIT} alt="c" className="mobile_my_slill_icons" />
+                                    <img src={KIIT} alt="c" className="my_skill_page_icons_all" />
                                     <br />
                                     <font className='laptop_about_me_about_me_font_5'>
                                         <b>B-Tech (CSE)</b> at
@@ -202,18 +202,18 @@ const MobileAboutPageContent = () => {
                             <div className="mobile_about_page_mobile-row">
                                 <div className='mobile_about_page_sample'>
                                     <div className="mobile_about_page_div11">
-                                        <img src={Reactt} alt="c" className="mobile_my_slill_icons" />
+                                        <img src={Reactt} alt="c" className="my_skill_page_icons_all" />
                                     </div>
                                     <div className="mobile_about_page_div12">
-                                        <img src={JavaScript} alt="c" className="mobile_my_slill_icons" />
+                                        <img src={JavaScript} alt="c" className="my_skill_page_icons_all" />
                                     </div>
                                 </div>
                                 <div className='mobile_about_page_sample'>
                                     <div className="mobile_about_page_div11">
-                                        <img src={Canva} alt="c" className="mobile_my_slill_icons" />
+                                        <img src={Canva} alt="c" className="my_skill_page_icons_all" />
                                     </div>
                                     <div className="mobile_about_page_div12">
-                                        <img src={Figma} alt="c" className="mobile_my_slill_icons" />
+                                        <img src={Figma} alt="c" className="my_skill_page_icons_all" />
                                     </div>
                                 </div>
                                 <div className="mobile_about_page_div13">

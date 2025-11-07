@@ -90,7 +90,7 @@ const MobilePortfolioPageContent = () => {
                         {openSections.three && (
                             <div className="mobile_about_page_mobile-row">
                                 <div className="mobile_about_page_div8">
-                                    <img src={Simplilearn} alt="c" className="laptop_my_slill_icons" />
+                                    <img src={Simplilearn} alt="c" className="my_skill_page_icons_all" />
                                     <br />
                                     <font className='laptop_about_me_about_me_font_5'>
                                         <b>Introduction to Tableau</b>

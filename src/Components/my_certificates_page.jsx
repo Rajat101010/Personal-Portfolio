@@ -20,7 +20,7 @@ function MyCertificatesContent() {
                     <br /><br />
                 </div>
                 <div className="work_experience_page_div2">
-                    <img src={Simplilearn} alt="c" className="laptop_my_slill_icons" />
+                    <img src={Simplilearn} alt="c" className="my_skill_page_icons_all" />
                     <br />
                     <font className='laptop_about_me_about_me_font_5'>
                         <b>Introduction to Tableau</b>
@@ -32,7 +32,7 @@ function MyCertificatesContent() {
                     <br /><br />
                 </div>
                 <div className="work_experience_page_div3">
-                    <img src={Semrush} alt="c" className="laptop_my_slill_icons" />
+                    <img src={Semrush} alt="c" className="my_skill_page_icons_all" />
                     <br />
                     <font className='laptop_about_me_about_me_font_5'>
                         <b>Digital Advertising</b>
@@ -44,7 +44,7 @@ function MyCertificatesContent() {
                     <br /><br />
                 </div>
                 <div className="work_experience_page_div4">
-                    <img src={Simplilearn} alt="c" className="laptop_my_slill_icons" />
+                    <img src={Simplilearn} alt="c" className="my_skill_page_icons_all" />
                     <br />
                     <font className='laptop_about_me_about_me_font_5'>
                         <b>Digital Marketing Strategy</b>
@@ -56,7 +56,7 @@ function MyCertificatesContent() {
                     <br /><br />
                 </div>
                 <div className="work_experience_page_div2">
-                    <img src={GreatLearning} alt="c" className="laptop_my_slill_icons" />
+                    <img src={GreatLearning} alt="c" className="my_skill_page_icons_all" />
                     <br />
                     <font className='laptop_about_me_about_me_font_5'>
                         <b>Excel Regression Analysis</b>
@@ -68,7 +68,7 @@ function MyCertificatesContent() {
                     <br /><br />
                 </div>
                 <div className="work_experience_page_div3">
-                    <img src={GreatLearning} alt="c" className="laptop_my_slill_icons" />
+                    <img src={GreatLearning} alt="c" className="my_skill_page_icons_all" />
                     <br />
                     <font className='laptop_about_me_about_me_font_5'>
                         <b>Introduction to Digital Marketing</b>
@@ -80,7 +80,7 @@ function MyCertificatesContent() {
                     <br /><br />
                 </div>
                 <div className="work_experience_page_div4">
-                    <img src={GoogleDigitalGarage} alt="c" className="laptop_my_slill_icons" />
+                    <img src={GoogleDigitalGarage} alt="c" className="my_skill_page_icons_all" />
                     <br />
                     <font className='laptop_about_me_about_me_font_5'>
                         <b>	Fundamental of Digital Marketing</b>
@@ -92,7 +92,7 @@ function MyCertificatesContent() {
                     <br /><br />
                 </div>
                 <div className="work_experience_page_div4">
-                    <img src={ITTrainingNepal} alt="c" className="laptop_my_slill_icons" />
+                    <img src={ITTrainingNepal} alt="c" className="my_skill_page_icons_all" />
                     <br />
                     <font className='laptop_about_me_about_me_font_5'>
                         <b>Python and Django</b>

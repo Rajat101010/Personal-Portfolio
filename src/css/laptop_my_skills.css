@@ -1,245 +1,89 @@
-.laptop_my_skills_div_parent {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 8px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: #F2F2F2;
-    width: 70%;
-    border-radius: 12px;
-    padding: 16px;
-}
-    
-.laptop_my_skills_div1 {
-    grid-column: span 5 / span 5;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.laptop_my_skills_prpgramming_div{
-    grid-column: span 5 / span 5;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 8px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: #FFF7F7;
-    width: auto;
-    border-radius: 12px;
-    padding: 16px;
-    margin-top: 16px;
-    margin-bottom: 16px;
-}
-
-.laptop_my_skills_div2 {
-    grid-column: span 5 / span 5;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding-bottom: 1rem;
-}
-
-.laptop_my_skills_div3 {
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: white;
-    border-radius: 12px;
-}
-
-.laptop_my_skills_div4 {
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: white;
-    border-radius: 12px;
-}
-
-.laptop_my_skills_div5 {
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: white;
-    border-radius: 12px;
-}
-
-.laptop_my_skills_div6 {
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: white;
-    border-radius: 12px;
-}
-
-.laptop_my_skills_div7 {
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: white;
-    border-radius: 12px;
-}
-
-.laptop_my_skills_designing_div{
-    grid-column: span 5 / span 5;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 8px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: #FFF7F7;
-    width: auto;
-    border-radius: 12px;
-    padding: 16px;
-    margin-top: 16px;
-    margin-bottom: 16px;
-}
-
-.laptop_my_skills_div8 {
-    grid-column: span 5 / span 5;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding-bottom: 1rem;
-}
-
-.laptop_my_skills_div9 {
-    grid-column-start: 2;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: white;
-    border-radius: 12px;
-}
-
-.laptop_my_skills_div10 {
-    grid-column-start: 3;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: white;
-    border-radius: 12px;
-}
-
-.laptop_my_skills_div11 {
-    grid-column-start: 4;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: white;
-    border-radius: 12px;
-}
-
-.laptop_my_skills_office_tools_div{
-    grid-column: span 5 / span 5;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 8px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: #FFF7F7;
-    width: auto;
-    border-radius: 12px;
-    padding: 16px;
-    margin-top: 16px;
-    margin-bottom: 16px;
-}
-
-.laptop_my_skills_div12 {
-    grid-column: span 5 / span 5;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding-bottom: 1rem;
-}
-
-.laptop_my_skills_div13 {
-    grid-column-start: 2;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: white;
-    border-radius: 12px;
-}
-
-.laptop_my_skills_div14 {
-    grid-column-start: 3;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: white;
-    border-radius: 12px;
-}
-
-.laptop_my_skills_div15 {
-    grid-column-start: 4;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: white;
-    border-radius: 12px;
-}
-
-.laptop_my_skills_div16 {
-    grid-column: span 5 / span 5;
-    grid-row-start: 6;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-bottom: 16px;
-}
-
-
-
-
-
-
-
-.laptop_my_skills_font_1{
+.laptop_my_skills_font_1 {
     font-size: 3rem;
     font-family: Verdana, sans-serif;
     color: #0D0D0D;
 }
 
-.laptop_my_skills_font_2{
+.laptop_my_skills_font_2 {
     font-size: 3rem;
     font-family: Verdana, sans-serif;
     color: #064E3B;
 }
 
-.laptop_my_skills_font_3{
+.laptop_my_skills_font_3 {
     font-size: 2rem;
     font-family: sans-serif;
     color: #3F3F46;
 }
 
-.laptop_my_skills_font_4{
+.laptop_my_skills_font_4 {
     font-size: 1.2rem;
     font-family: Verdana, sans-serif;
     color: #3F3F46;
 }
 
-.laptop_my_slill_icons {
-    height: 5rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-}
-
-.laptop_my_skills_button_view_more{
+.laptop_my_skills_button_view_more {
     text-align: center;
     margin: .4rem .2rem;
-    background-color: #F2F2F2; 
+    background-color: #F2F2F2;
     border: 2px solid #064E3B;
     padding: .5rem 2.5rem;
     border-radius: 12px;
     cursor: pointer;
 }
 
-.laptop_my_skills_button_view_more:hover{
-    background-color: #F2F2F2; 
-    box-shadow: 0 .1rem 1.6rem 0 rgba(0,0,0,0.24), 0 1.7rem 5rem 0 rgba(0,0,0,0.19);
+.laptop_my_skills_button_view_more:hover {
+    background-color: #F2F2F2;
+    box-shadow: 0 .1rem 1.6rem 0 rgba(0, 0, 0, 0.24), 0 1.7rem 5rem 0 rgba(0, 0, 0, 0.19);
+}
+
+.sample_laptop_my_skills_div_grand_parent {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #F2F2F2;
+    width: 90%;
+    border-radius: 12px;
+    padding: 16px;
+}
+
+.sample_laptop_my_skills_parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 8px;
+}
+
+.sample_laptop_my_skills_parent_div1,
+.sample_laptop_my_skills_parent_div2,
+.sample_laptop_my_skills_parent_div3,
+.sample_laptop_my_skills_parent_div4 {
+    background-color: #FFF7F7;
+    border-radius: 12px;
+    margin: 15px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.sample_laptop_my_skills_sub_div1,
+.sample_laptop_my_skills_sub_div2,
+.sample_laptop_my_skills_sub_div3,
+.sample_laptop_my_skills_sub_div4,
+.sample_laptop_my_skills_sub_div5{
+    background-color: white;
+    border-radius: 12px;
+}
+
+.sample_laptop_my_skills_parent_div5 {
+    grid-column: span 2 / span 2;
+}
+
+
+.sample_laptop_my_skills_sub_parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 8px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }

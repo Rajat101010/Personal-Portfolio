@@ -28,31 +28,34 @@ import '../css/contact_me.css';
 import Footer from '../Components/footer';
 import '../css/footer.css';
 
+import SwipePage from "../SwipePage";
 
 function Home() {
   return (
-    <main>
-      <NavHome />
-      <br /><br />
-      <div><Intro /></div>
-      <br /><br />
-      <div><Complement /></div>
-      <br />
-      <br className='remove_in_mobile_br' />
-      <br className='remove_in_mobile_br' />
-      <div className='laptop_about_me'><LaptopAboutMe /></div>
-      <div className='mobile_about_me'><MobileAboutMe /></div>
-      <br />
-      <br />
-      <div className='laptop_my_skills'><LaptopMySkills /></div>
-      <div className='mobile_my_skills'><MobileMySkills /></div>
-      <br /><br />
-      <div><Projects /></div>
-      <br /><br />
-      <div><ContactMe /></div>
-      <br /><br />
-      <div><Footer /></div>
-    </main>
+    <SwipePage>
+      <main>
+        <NavHome />
+        <br /><br />
+        <div><Intro /></div>
+        <br /><br />
+        <div><Complement /></div>
+        <br />
+        <br className='remove_in_mobile_br' />
+        <br className='remove_in_mobile_br' />
+        <div className='laptop_about_me'><LaptopAboutMe /></div>
+        <div className='mobile_about_me'><MobileAboutMe /></div>
+        <br />
+        <br />
+        <div className='laptop_my_skills'><LaptopMySkills /></div>
+        <div className='mobile_my_skills'><MobileMySkills /></div>
+        <br /><br />
+        <div><Projects /></div>
+        <br /><br />
+        <div><ContactMe /></div>
+        <br /><br />
+        <div><Footer /></div>
+      </main>
+    </SwipePage>
   );
 }
 

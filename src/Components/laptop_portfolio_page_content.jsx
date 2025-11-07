@@ -101,7 +101,7 @@ function LaptopPortfolioPageContent() {
                         </font>
                     </div>
                     <div className="laptop_about_page_content_div7">
-                        <img src={Simplilearn} alt="c" className="laptop_my_slill_icons" />
+                        <img src={Simplilearn} alt="c" className="my_skill_page_icons_all" />
                         <br />
                         <font className='laptop_about_me_about_me_font_5'>
                             <b>Introduction to Tableau</b>
@@ -113,7 +113,7 @@ function LaptopPortfolioPageContent() {
                         <br /><br />
                     </div>
                     <div className="laptop_about_page_content_div8">
-                        <img src={Semrush} alt="c" className="laptop_my_slill_icons" />
+                        <img src={Semrush} alt="c" className="my_skill_page_icons_all" />
                         <br />
                         <font className='laptop_about_me_about_me_font_5'>
                             <b>Digital Advertising</b>
@@ -125,7 +125,7 @@ function LaptopPortfolioPageContent() {
                         <br /><br />
                     </div>
                     <div className="laptop_about_page_content_div9">
-                        <img src={Simplilearn} alt="c" className="laptop_my_slill_icons" />
+                        <img src={Simplilearn} alt="c" className="my_skill_page_icons_all" />
                         <br />
                         <font className='laptop_about_me_about_me_font_5'>
                             <b>Digital Marketing Strategy</b>

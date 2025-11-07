@@ -18,7 +18,7 @@ function EducationalQualificationContent() {
                     <br /><br />
                 </div>
                 <div className="educational_qualification_page_div2">
-                    <img src={KIIT} alt="c" className="laptop_my_slill_icons" />
+                    <img src={KIIT} alt="c" className="my_skill_page_icons_all" />
                     <br />
                     <font className='laptop_about_me_about_me_font_5'>
                         <b>B-Tech (CSE)</b> at
@@ -33,7 +33,7 @@ function EducationalQualificationContent() {
                     <br /><br />
                 </div>
                 <div className="educational_qualification_page_div3">
-                    <img src={MIS} alt="c" className="laptop_my_slill_icons" />
+                    <img src={MIS} alt="c" className="my_skill_page_icons_all" />
                     <br />
                     <font className='laptop_about_me_about_me_font_5'>
                         <b>Hign School</b> at

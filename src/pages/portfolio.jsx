@@ -9,17 +9,21 @@ import MobilePortfolioPageContent from '../Components/mobile_portfolio_page_cont
 import Footer from '../Components/footer';
 import '../css/footer.css';
 
+import SwipePage from "../SwipePage";
+
 function Portfolio() {
     return (
-        <main>
-            <NavPortfolio />
-            <br />
-            <br className='remove_in_mobile_br' />
-            <div className='laptop_about_page'><LaptopPortfolioPageContent /></div>
-            <div className='mobile_portfolio_page'><MobilePortfolioPageContent /></div>
-            <br />
-            <div><Footer /></div>
-        </main>
+        <SwipePage>
+            <main>
+                <NavPortfolio />
+                <br />
+                <br className='remove_in_mobile_br' />
+                <div className='laptop_about_page'><LaptopPortfolioPageContent /></div>
+                <div className='mobile_portfolio_page'><MobilePortfolioPageContent /></div>
+                <br />
+                <div><Footer /></div>
+            </main>
+        </SwipePage>
     );
 }
 

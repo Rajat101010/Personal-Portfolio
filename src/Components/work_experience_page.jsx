@@ -19,7 +19,7 @@ function WorkExperienceContent() {
                     <br /><br />
                 </div>
                 <div className="work_experience_page_div2">
-                    <img src={Aorta} alt="c" className="laptop_my_slill_icons" />
+                    <img src={Aorta} alt="c" className="my_skill_page_icons_all" />
                     <br />
                     <font className='laptop_about_me_about_me_font_5'>
                         <b>Marketing Intern</b> at
@@ -34,7 +34,7 @@ function WorkExperienceContent() {
                     <br /><br />
                 </div>
                 <div className="work_experience_page_div3">
-                    <img src={SR} alt="c" className="laptop_my_slill_icons" />
+                    <img src={SR} alt="c" className="my_skill_page_icons_all" />
                     <br />
                     <font className='laptop_about_me_about_me_font_5'>
                         <b>HR Intern</b> at
@@ -49,7 +49,7 @@ function WorkExperienceContent() {
                     <br /><br />
                 </div>
                 <div className="work_experience_page_div4">
-                    <img src={Upwork} alt="c" className="laptop_my_slill_icons" />
+                    <img src={Upwork} alt="c" className="my_skill_page_icons_all" />
                     <br />
                     <font className='laptop_about_me_about_me_font_5'>
                         <b>Freelancer</b> at

@@ -11,17 +11,21 @@ import '../css/mobile_about_page_content.css';
 import Footer from '../Components/footer';
 import '../css/footer.css';
 
+import SwipePage from "../SwipePage";
+
 function About() {
     return (
-        <main>
-            <NavAbout />
-            <br />
-            <br className='remove_in_mobile_br' />
-            <div className='laptop_about_page'><LaptopAboutPageContent /></div>
-            <div className='mobile_about_page'><MobileAboutPageContent /></div>
-            <br />
-            <div><Footer /></div>
-        </main>
+        <SwipePage>
+            <main>
+                <NavAbout />
+                <br />
+                <br className='remove_in_mobile_br' />
+                <div className='laptop_about_page'><LaptopAboutPageContent /></div>
+                <div className='mobile_about_page'><MobileAboutPageContent /></div>
+                <br />
+                <div><Footer /></div>
+            </main>
+        </SwipePage>
     );
 }
 
